@@ -7,6 +7,7 @@
  * URL: http://blacktie.co
  */
 
+ 
 body {
   background-color: ;
     font-family: 'EB Garamond', serif;
@@ -19,13 +20,27 @@ body {
 }
 
 /* Titles */
+
+class
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     color: #333;
 }
 
-
+.transparent-text {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  background: #2E2F45;
+  display: table;
+  margin: 20px auto;
+  color: yellowgreen;
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+}
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
